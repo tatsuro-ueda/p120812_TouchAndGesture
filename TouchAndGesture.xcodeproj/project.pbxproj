@@ -15,6 +15,9 @@
 		07CAF5BC15D7BB3B00C3DFFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CAF5BB15D7BB3B00C3DFFE /* AppDelegate.m */; };
 		07CAF5BF15D7BB3B00C3DFFE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CAF5BD15D7BB3B00C3DFFE /* MainStoryboard.storyboard */; };
 		07CAF5C215D7BB3B00C3DFFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CAF5C115D7BB3B00C3DFFE /* ViewController.m */; };
+		07CAF5CA15D7BB8E00C3DFFE /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CAF5C915D7BB8E00C3DFFE /* View.m */; };
+		07CAF5CC15D7BBBD00C3DFFE /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CAF5CB15D7BBBD00C3DFFE /* image.png */; };
+		07CAF5CE15D7BC7C00C3DFFE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CAF5CD15D7BC7C00C3DFFE /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,19 @@
 		07CAF5AB15D7BB3B00C3DFFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07CAF5AD15D7BB3B00C3DFFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07CAF5AF15D7BB3B00C3DFFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		07CAF5B315D7BB3B00C3DFFE /* TouchAndGesture-Info.plist */ = {isa = PBXFileReference; path = "TouchAndGesture-Info.plist"; sourceTree = "<group>"; };
+		07CAF5B315D7BB3B00C3DFFE /* TouchAndGesture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchAndGesture-Info.plist"; sourceTree = "<group>"; };
 		07CAF5B515D7BB3B00C3DFFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07CAF5B715D7BB3B00C3DFFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07CAF5B915D7BB3B00C3DFFE /* TouchAndGesture-Prefix.pch */ = {isa = PBXFileReference; path = "TouchAndGesture-Prefix.pch"; sourceTree = "<group>"; };
-		07CAF5BA15D7BB3B00C3DFFE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		07CAF5B915D7BB3B00C3DFFE /* TouchAndGesture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchAndGesture-Prefix.pch"; sourceTree = "<group>"; };
+		07CAF5BA15D7BB3B00C3DFFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07CAF5BB15D7BB3B00C3DFFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		07CAF5BE15D7BB3B00C3DFFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		07CAF5C015D7BB3B00C3DFFE /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		07CAF5C015D7BB3B00C3DFFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		07CAF5C115D7BB3B00C3DFFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07CAF5C815D7BB8E00C3DFFE /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		07CAF5C915D7BB8E00C3DFFE /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		07CAF5CB15D7BBBD00C3DFFE /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		07CAF5CD15D7BC7C00C3DFFE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07CAF5CE15D7BC7C00C3DFFE /* QuartzCore.framework in Frameworks */,
 				07CAF5AC15D7BB3B00C3DFFE /* UIKit.framework in Frameworks */,
 				07CAF5AE15D7BB3B00C3DFFE /* Foundation.framework in Frameworks */,
 				07CAF5B015D7BB3B00C3DFFE /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +75,7 @@
 		07CAF5AA15D7BB3B00C3DFFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07CAF5CD15D7BC7C00C3DFFE /* QuartzCore.framework */,
 				07CAF5AB15D7BB3B00C3DFFE /* UIKit.framework */,
 				07CAF5AD15D7BB3B00C3DFFE /* Foundation.framework */,
 				07CAF5AF15D7BB3B00C3DFFE /* CoreGraphics.framework */,
@@ -77,9 +86,12 @@
 		07CAF5B115D7BB3B00C3DFFE /* TouchAndGesture */ = {
 			isa = PBXGroup;
 			children = (
+				07CAF5CB15D7BBBD00C3DFFE /* image.png */,
 				07CAF5BA15D7BB3B00C3DFFE /* AppDelegate.h */,
 				07CAF5BB15D7BB3B00C3DFFE /* AppDelegate.m */,
 				07CAF5BD15D7BB3B00C3DFFE /* MainStoryboard.storyboard */,
+				07CAF5C815D7BB8E00C3DFFE /* View.h */,
+				07CAF5C915D7BB8E00C3DFFE /* View.m */,
 				07CAF5C015D7BB3B00C3DFFE /* ViewController.h */,
 				07CAF5C115D7BB3B00C3DFFE /* ViewController.m */,
 				07CAF5B215D7BB3B00C3DFFE /* Supporting Files */,
@@ -150,6 +162,7 @@
 			files = (
 				07CAF5B615D7BB3B00C3DFFE /* InfoPlist.strings in Resources */,
 				07CAF5BF15D7BB3B00C3DFFE /* MainStoryboard.storyboard in Resources */,
+				07CAF5CC15D7BBBD00C3DFFE /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +176,7 @@
 				07CAF5B815D7BB3B00C3DFFE /* main.m in Sources */,
 				07CAF5BC15D7BB3B00C3DFFE /* AppDelegate.m in Sources */,
 				07CAF5C215D7BB3B00C3DFFE /* ViewController.m in Sources */,
+				07CAF5CA15D7BB8E00C3DFFE /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    v = [[View alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    [self.view addSubview:v];
 }
 
 - (void)viewDidUnload
@@ -31,4 +33,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)swipe:(id)sender {
+    v.backgroundColor = [UIColor blueColor];
+}
 @end

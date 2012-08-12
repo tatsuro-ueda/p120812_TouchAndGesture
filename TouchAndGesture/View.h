@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  View.h
 //  TouchAndGesture
 //
 //  Created by 達郎 植田 on 12/08/12.
@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "View.h"
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface View : UIView
 {
-    View *v;
+    CALayer   *layer;
 }
-- (IBAction)swipe:(id)sender;
+
 @end
