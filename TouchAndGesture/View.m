@@ -40,4 +40,16 @@
     layer.frame = CGRectMake(pt.x, pt.y, 100, 100);
 }
 
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch* touch = [touches anyObject];    
+    CGPoint pt = [touch locationInView:self];
+    layer.frame = CGRectMake(pt.x, pt.y, 100, 100);
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    layer.frame = CGRectMake(0, 0, 100, 100);
+}
+
 @end

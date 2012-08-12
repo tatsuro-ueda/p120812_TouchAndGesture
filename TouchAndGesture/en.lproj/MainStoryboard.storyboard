@@ -21,7 +21,7 @@
                         </connections>
                     </view>
                 </viewController>
-                <swipeGestureRecognizer direction="right" id="PbX-re-To4">
+                <swipeGestureRecognizer cancelsTouchesInView="NO" direction="right" id="PbX-re-To4">
                     <connections>
                         <action selector="swipe:" destination="2" id="UHq-d8-JGG"/>
                     </connections>
