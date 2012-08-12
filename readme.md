@@ -32,5 +32,12 @@ Then, write touch delegate method.
 	{
 	    layer.frame = CGRectMake(0, 0, 100, 100);
 	}
+	
+	- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+	{
+	    self.backgroundColor = [UIColor redColor];
+	}
 
-Now you can move image without cancelled, and you can swipe the screen to set color blue (Swipe Gesture is successfully recognized). Both you can.
+Now you can move image without cancelled, and you can swipe the screen to set color blue (Swipe Gesture is successfully recognized). Both you can. And, when touch ends, the window color changes to red.
+
+![ss](http://farm9.staticflickr.com/8285/7765041898_3a8ac29d08_o.png)

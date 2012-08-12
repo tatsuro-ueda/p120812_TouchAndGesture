@@ -52,4 +52,8 @@
     layer.frame = CGRectMake(0, 0, 100, 100);
 }
 
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    self.backgroundColor = [UIColor redColor];
+}
 @end
